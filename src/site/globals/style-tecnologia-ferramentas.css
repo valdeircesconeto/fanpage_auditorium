@@ -10,3 +10,35 @@ margin-bottom: 25px;
   border: 2px solid red;
   padding: 0;
 }
+.ui.center.aligned.header{
+  font-size: 14px;
+  font-weight: lighter;
+  margin-top: 0;
+}
+/*Small*/
+@media screen and (max-width: 768px){
+  body{
+    background-color: red;
+  }
+}
+
+/*Tablet*/
+@media screen and (min-width: 768px) and (max-width: 991px){
+  body{
+    background-color: green;
+  }
+}
+
+/*Computer*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+  body{
+    background-color: pink;
+  }
+}
+
+/* > Computer*/
+@media screen and (min-width: 1200px){
+  body{
+    background-color: blue;
+  }
+}
