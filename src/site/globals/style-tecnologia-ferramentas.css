@@ -1,44 +1,84 @@
-body{
+body {}
 
-}
-.ui.center.aligned.header.title-tecnologia{
-font-size: 20px;
-margin-top: 25px;
-margin-bottom: 25px;
-}
-.img-tecnologia{
-  border: 2px solid red;
+.img-tecnologia {
+  border: 2px solid transparent;
   padding: 0;
 }
-.ui.center.aligned.header{
-  font-size: 14px;
-  font-weight: lighter;
-  margin-top: 0;
-}
+
 /*Small*/
-@media screen and (max-width: 768px){
-  body{
-    background-color: red;
+
+@media screen and (max-width: 768px) {
+  .ui.center.aligned.header{
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  .ui.center.aligned.header.title-tecnologia{
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  }
+  .ui.center.aligned.header.title-principal{
+    font-size: 40px;
+  }
+  .img-tec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
   }
 }
 
 /*Tablet*/
-@media screen and (min-width: 768px) and (max-width: 991px){
-  body{
-    background-color: green;
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.center.aligned.header {
+    font-size: 13px;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  .ui.center.aligned.header.title-tecnologia {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 30px;
   }
 }
 
 /*Computer*/
-@media screen and (min-width: 992px) and (max-width: 1200px){
-  body{
-    background-color: pink;
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .ui.center.aligned.header {
+    font-size: 15px;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  .ui.center.aligned.header.title-tecnologia {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 40px;
   }
 }
 
 /* > Computer*/
-@media screen and (min-width: 1200px){
-  body{
-    background-color: blue;
+
+@media screen and (min-width: 1200px) {
+  .ui.center.aligned.header {
+    font-size: 17px;
+    font-weight: lighter;
+    margin-top: 0;
+  }
+  .ui.center.aligned.header.title-tecnologia {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 45px;
   }
 }
