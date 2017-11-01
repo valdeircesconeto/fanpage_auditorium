@@ -1,0 +1,12 @@
+body{
+
+}
+.ui.center.aligned.header.title-tecnologia{
+font-size: 20px;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.img-tecnologia{
+  border: 2px solid red;
+  padding: 0;
+}
