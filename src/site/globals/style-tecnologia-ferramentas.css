@@ -1,37 +1,36 @@
 body {}
 
-.laravel{
+.laravel {
   color: #e74430;
 }
-.vue{
+
+.vue {
   color: rgb(79, 192, 141);
 }
-.bootstrap{
+
+.bootstrap {
   color: #563d7c;
 }
-
-
 
 /*Small*/
 
 @media screen and (max-width: 768px) {
-  .ui.center.aligned.header{
+  .ui.center.aligned.header {
     font-size: 13px;
     font-weight: lighter;
     margin-top: 0;
   }
-  .ui.center.aligned.header.title-tecnologia{
-  font-size: 25px;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  .ui.center.aligned.header.title-tecnologia {
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 10px;
   }
-  .ui.center.aligned.header.title-principal{
+  .ui.center.aligned.header.title-principal {
     font-size: 40px;
   }
-  .laravel, .vue, .bootstrap{
+  .laravel, .vue, .bootstrap {
     font-size: 30px;
   }
-
 }
 
 /*Tablet*/
@@ -50,44 +49,45 @@ body {}
   .ui.center.aligned.header.title-principal {
     font-size: 30px;
   }
-
 }
 
 /*Computer*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-
-  .ui.center.aligned.header.title-tecnologia {
-    font-size: 25px;
+  .ui.horizontal.header.divider {
     margin-top: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   .ui.center.aligned.header.title-principal {
     font-size: 40px;
+    margin: 30px 0 20px 0;
   }
-  .laravel, .vue, .bootstrap{
+  .laravel, .vue, .bootstrap {
     font-size: 23px;
   }
-
+  .ui.center.aligned.header {
+    font-weight: lighter;
+  }
 }
 
 /* > Computer*/
 
 @media screen and (min-width: 1200px) {
-
-  .ui.center.aligned.header.title-tecnologia {
-    font-size: 25px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+  .ui.horizontal.header.divider {
+    margin: 25px 0 25px 0;
   }
   .ui.center.aligned.header.title-principal {
-    font-size: 45px;
+    font-size: 50px;
+    margin: 30px 0 20px 0;
   }
-  .laravel, .vue, .bootstrap{
+  .laravel, .vue, .bootstrap {
     font-size: 25px;
   }
-  .ui.center.aligned.header{
+  .ui.center.aligned.header {
     font-weight: lighter;
+    font-size: 18px;
   }
-
+  .ui.center.aligned.header, .ui.horizontal.header.divider {
+    font-family: 'Raleway', sans-serif;
+  }
 }
