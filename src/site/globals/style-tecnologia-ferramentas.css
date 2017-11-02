@@ -45,6 +45,11 @@ body {}
   .ui.center.aligned.header.title-principal {
     font-size: 30px;
   }
+  .img-tec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /*Computer*/
