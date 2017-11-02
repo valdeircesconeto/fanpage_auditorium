@@ -4,7 +4,7 @@ body {}
 
 /*Small*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .git, .github{
     font-size: 40px;
     display: flex;
@@ -14,10 +14,14 @@ body {}
   .ui.center.aligned.header.versonamento{
     font-weight: lighter;
     margin-bottom: 30px;
+    font-size: 25px;
   }
   .ui.center.aligned.header.title-versonamento{
     margin: 30px 0 20px 0;
     font-size: 40px;
+  }
+  .sub-git, .sub-github{
+    font-size: 30px;
   }
 
 }
@@ -31,8 +35,13 @@ body {}
     align-items: center;
     justify-content: center;
   }
+  .ui.center.aligned.header.title-versonamento{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+  }
   .ui.center.aligned.header.versonamento{
     font-weight: lighter;
+    margin-bottom: 30px;
   }
 
 }
@@ -49,6 +58,10 @@ body {}
   .ui.center.aligned.header.versonamento{
     font-weight: lighter;
   }
+  .ui.center.aligned.header.title-versonamento{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+  }
 
 }
 
@@ -64,6 +77,10 @@ body {}
 
   .ui.center.aligned.header.versonamento{
     font-weight: lighter;
+  }
+  .ui.center.aligned.header.title-versonamento{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
   }
 
 
