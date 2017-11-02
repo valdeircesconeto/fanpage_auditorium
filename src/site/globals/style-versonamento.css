@@ -5,12 +5,35 @@ body {}
 /*Small*/
 
 @media screen and (max-width: 768px) {
+  .git, .github{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui.center.aligned.header.versonamento{
+    font-weight: lighter;
+    margin-bottom: 30px;
+  }
+  .ui.center.aligned.header.title-versonamento{
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+  }
 
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .git, .github{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui.center.aligned.header.versonamento{
+    font-weight: lighter;
+  }
 
 }
 
