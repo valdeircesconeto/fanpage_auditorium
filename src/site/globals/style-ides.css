@@ -1,0 +1,52 @@
+.ides{
+    background-color: black;
+}
+.title-ides{
+    color: #ffffff;
+}
+.ui.horizontal.header.divider{
+    color: #ffffff;
+}
+.ui.center.aligned.header.title-ides{
+    color: #ffffff;
+}
+
+/*Small*/
+
+@media screen and (max-width: 768px) {
+
+}
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*Computer*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+.icon-code{
+    font-size: 40px;
+    color: #ffffff;
+}
+.ides{
+    margin-top: 20px;
+}
+
+}
+
+/* > Computer*/
+
+@media screen and (min-width: 1200px) {
+
+.icon-code{
+    font-size: 40px;
+    color: #ffffff;
+}
+.ides{
+    margin-top: 20px;
+}
+
+
+}

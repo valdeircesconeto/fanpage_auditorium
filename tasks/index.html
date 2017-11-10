@@ -10,6 +10,7 @@
   <link rel="stylesheet" type="text/css" href="style-home.css">
   <link rel="stylesheet" type="text/css" href="../src/site/globals/style-tecnologia-ferramentas.css">
   <link rel="stylesheet" type="text/css" href="../src/site/globals/style-versonamento.css">
+  <link rel="stylesheet" type="text/css" href="../src/site/globals/style-devs.css">
 
   <script src="../out/semantic.min.js"></script>
   <script type="text/javascript" src="script.js"></script>
@@ -20,25 +21,24 @@
 
 </head>
 
-<body>
+<body onload="rola()">
 
   <!--menu -->
-
-
-
-
   <!-- end menu -->
 
   <!-- ################################# HOME ################################-->
   <!-- Home -->
+  <div class="height-page">
   <div class="ui container home">
 
   </div>
+</div>
   <!--end home-->
 
   <!-- ################################ TECN. E FERR. #######################-->
 
   <!-- tecnologia e ferramentas-->
+  <div class="height-page tecnologia-ferramentas">
   <div class="ui container">
     <div class="row">
       <h2 class="ui center aligned header title-principal">
@@ -75,13 +75,14 @@
       </p>
     </div>
   </div>
-
+</div>
 
   <!--end tecn. e ferramentas -->
 
   <!-- ################################# VERSONAMENTO #######################-->
 
   <!-- Versonamento -->
+  <div class="height-page versonamento-git-github">
   <div class="ui container">
     <div class="row">
       <h2 class="ui center aligned header title-versonamento">
@@ -115,63 +116,48 @@
       </p>
     </div>
   </div>
-
+</div>
   <!--end Versonamento-->
 
-  <!-- ##################################### IDEs ###########################-->
 
-  <!-- IDEs -->
-  <div class="ui container">
-    <div class="row">
-      <h2>IDEs</h2>
-    </div>
-    <div class="ui grid">
-      <div class="row">
-        <div class="ui sixteen wide mobile eight wide tablet eight wide computer column">
-
-        </div>
-        <div class="ui sixteen wide mobile eight wide tablet eight wide computer column">
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end IDEs -->
 
   <!-- ##################################### DEVs ###########################-->
 
   <!-- devs -->
+  <div class="height-page devs-front-benk">
   <div class="ui container">
     <div class="row">
-      <h2>Dev</h2>
-    </div>
-    <div class="ui two column grid">
-      <div class="row">
-        <div class="column">
-          Evandro Murilo
-        </div>
-        <div class="column">
-          Valdeir cesconeto
-        </div>
+      <div class="ui center aligned header">
+        <h2>Dev</h2>
       </div>
     </div>
   </div>
-  </div>
-  </div>
-  </div>
+    <div class="ui grid container">
+
+        <div class="sixteen wide mobile eight wide tablet eight wide compputer column">
+          Evandro Murilo
+        </div>
+        <div class="sixteen wide mobile eight wide tablet eight wide compputer column">
+          Valdeir cesconeto
+        </div>
+      </div>
+<div>
+
+
 
   <!-- end devs -->
-  <!--
-  <script type="text/javascript">
-  $('.context.example .ui.sidebar')
-    .sidebar({
-      context: $('.context.example .bottom.segment')
-    })
-    .sidebar('attach events', '.context.example .menu .item');
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+
+  <script>
+    var _AlturaPagina = $(window).height();
+
+    function Altura() {
+      $('.height-page').height(_AlturaPagina);
+    }
+    $(Altura);
   </script>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
--->
 </body>
 
 </html>
