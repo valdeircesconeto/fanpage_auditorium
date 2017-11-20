@@ -94,6 +94,9 @@ body {}
   .sub-git, .sub-github{
     font-size: 35px;
   }
+  .versonamento-git-github{
+    background-color: #555;
+  }
 
 
 }

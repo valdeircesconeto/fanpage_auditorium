@@ -1,3 +1,42 @@
 .devs-front-benk{
-  background-color: pink;
+  background-color: #ccc;
+}
+
+/*Small*/
+
+@media screen and (max-width: 768px) {
+
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*Computer*/
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .title-dev{
+    font-size: 50px;
+  }
+
+}
+
+/* > Computer*/
+
+@media screen and (min-width: 1200px) {
+
+  .ui.center.aligned.header.title-dev{
+    font-size: 50px;
+  }
+  .sixteen.wide.mobile.eight.wide.tablet.eight.wide.computer.column.back{
+
+  }
+  .sixteen.wide.mobile.eight.wide.tablet.eight.wide.computer.column.front{
+
+  }
+
+
+
 }
