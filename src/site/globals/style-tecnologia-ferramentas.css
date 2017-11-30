@@ -1,78 +1,56 @@
 body {}
 
 .laravel {
-  color: #e74430;
+  color: #fff;
 }
 
 .vue {
-  color: rgb(79, 192, 141);
+  color: #fff;
 }
 
 .bootstrap {
-  color: #563d7c;
+  color: #fff;
 }
-
+.read-docs{
+  color: #fff;
+}
+.laravel:hover, .vue:hover, .bootstrap:hover, .head-docs:hover{
+  text-decoration: none;
+  color: #fff;
+}
+em{
+  color: red;
+  border: 1px solid #ccc;
+  padding: 2px 5px 2px 5px;
+  border-radius: 7px;
+}
+p{
+  width: 500px;
+  word-break: keep-all;
+}
 /*Small*/
 
 @media screen and (max-width: 768px) {
-  .ui.center.aligned.header.tecnologia {
-    font-size: 18px;
-    font-weight: lighter;
-  }
-  .ui.center.aligned.header.title-principal {
-    font-size: 40px;
-    margin: 30px 0 20px 0;
-  }
-  .laravel, .vue, .bootstrap {
-    font-size: 40px;
-  }
+
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  .ui.center.aligned.header.tecnologia {
-    font-size: 20px;
-    font-weight: lighter;
 
-  }
-
-  .laravel, .vue, .bootstrap {
-    font-size: 40px;
-  }
-  .ui.center.aligned.header.title-principal {
-    font-size: 40px;
-  }
 }
 
 /*Computer*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
-  .ui.center.aligned.header.tecnologia {
-    font-weight: lighter;
-    font-size: 20px;
-  }
-  .ui.horizontal.header.divider {
-    margin-top: 25px;
-    margin-bottom: 25px;
-  }
-  .ui.center.aligned.header.title-principal {
-    font-size: 50px;
-    margin: 30px 0 20px 0;
-  }
-  .laravel, .vue, .bootstrap {
-    font-size: 40px;
-  }
+
 
 }
 
 /* > Computer*/
 
 @media screen and (min-width: 1200px) {
-  .ui.center.aligned.header.tecnologia {
-    font-weight: lighter;
-    font-size: 20px;
-  }
+
   .ui.horizontal.header.divider {
     margin: 25px 0 25px 0;
   }
@@ -80,8 +58,16 @@ body {}
     font-size: 50px;
     margin: 30px 0 20px 0;
   }
-  .laravel, .vue, .bootstrap {
-    font-size: 40px;
-  }
 
+/*docs*/
+
+.ui.center.aligned.header.title-docs{
+  margin: 50px 0 25px 0;
+}
+.btn-docs{
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 }
