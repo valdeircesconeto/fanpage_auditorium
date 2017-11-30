@@ -31,19 +31,73 @@ p{
 /*Small*/
 
 @media screen and (max-width: 768px) {
+  .ui.horizontal.header.divider {
+    margin: 25px 0 25px 0;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 50px;
+    margin: 30px 0 20px 0;
+  }
 
+/*docs*/
+
+.ui.center.aligned.header.title-docs{
+  margin: 50px 0 25px 0;
+}
+.btn-docs{
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .ui.horizontal.header.divider {
+    margin: 25px 0 25px 0;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 50px;
+    margin: 30px 0 20px 0;
+  }
 
+/*docs*/
+
+.ui.center.aligned.header.title-docs{
+  margin: 50px 0 25px 0;
+}
+.btn-docs{
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 }
 
 /*Computer*/
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
+  .ui.horizontal.header.divider {
+    margin: 25px 0 25px 0;
+  }
+  .ui.center.aligned.header.title-principal {
+    font-size: 50px;
+    margin: 30px 0 20px 0;
+  }
 
+/*docs*/
+
+.ui.center.aligned.header.title-docs{
+  margin: 50px 0 25px 0;
+}
+.btn-docs{
+  float: right;
+  display: flex;
+  margin-right: 100px;
+  margin-top: 100px;
+}
 
 }
 

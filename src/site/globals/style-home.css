@@ -31,7 +31,7 @@ body{
     align-items: center;
     justify-content: center;
   }
-  
+
 }
 
 /*Tablet*/
@@ -44,7 +44,7 @@ body{
   }
   .ui.center.aligned.header.title-home{
     font-size: 70px;
-    padding-top: 200px;
+    padding-top: 100px;
     font-family: @import url('https://fonts.googleapis.com/css?family=Amaranth');
   }
   .ui.center.aligned.header.sub-title-home{

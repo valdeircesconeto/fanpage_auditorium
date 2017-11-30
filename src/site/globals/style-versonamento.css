@@ -4,46 +4,62 @@ body {}
 
 @media screen and (max-width: 767px) {
   .git, .github {
-    font-size: 40px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ui.center.aligned.header.versonamento {
+  .ui.center.aligned.container.versonamento {
     font-weight: lighter;
-    margin-bottom: 30px;
-    font-size: 18px;
+    margin-bottom: 25px;
+      font-size: 15px;
   }
   .ui.center.aligned.header.title-versonamento {
-    margin: 30px 0 20px 0;
-    font-size: 50px;
+    margin: 50px 0 20px 0;
+    padding-top: 20px;
+    font-size: 30px;
   }
   .sub-git, .sub-github {
-    font-size: 35px;
+    font-size: 25px;
   }
+  .versonamento-git-github {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    }
+     /*commit*/
+
 }
 
 /*Tablet*/
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .git, .github {
-    font-size: 45px;
+    font-size: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .ui.center.aligned.header.title-versonamento {
-    margin: 30px 0 20px 0;
-    font-size: 50px;
-  }
-  .ui.center.aligned.header.versonamento {
+  .ui.center.aligned.container.versonamento {
     font-weight: lighter;
-    margin-bottom: 40px;
-    font-size: 22px;
+    margin-bottom: 25px;
+      font-size: 15px;
+  }
+  .ui.center.aligned.header.title-versonamento {
+    margin: 50px 0 20px 0;
+    padding-top: 20px;
+    font-size: 30px;
   }
   .sub-git, .sub-github {
-    font-size: 35px;
+    font-size: 25px;
   }
+  .versonamento-git-github {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    }
+     /*commit*/
+
 }
 
 /*Computer*/
@@ -55,17 +71,26 @@ body {}
     align-items: center;
     justify-content: center;
   }
-  .ui.center.aligned.header.versonamento {
+  .ui.center.aligned.container.versonamento {
     font-weight: lighter;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+      font-size: 17px;
   }
   .ui.center.aligned.header.title-versonamento {
-    margin: 30px 0 20px 0;
-    font-size: 50px;
+    margin: 50px 0 20px 0;
+    padding-top: 20px;
+    font-size: 30px;
   }
   .sub-git, .sub-github {
-    font-size: 35px;
+    font-size: 25px;
   }
+  .versonamento-git-github {
+    background: #abbaab;
+    background: -webkit-linear-gradient(to right, #ffffff, #abbaab);
+    background: linear-gradient(to right, #ffffff, #abbaab);
+    }
+     /*commit*/
+
 }
 
 /* > Computer*/
@@ -77,16 +102,18 @@ body {}
     align-items: center;
     justify-content: center;
   }
-  .ui.center.aligned.header.versonamento {
+  .ui.center.aligned.container.versonamento {
     font-weight: lighter;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
+    font-size: 18px;
   }
   .ui.center.aligned.header.title-versonamento {
-    margin: 30px 0 20px 0;
-    font-size: 50px;
+    margin: 50px 0 20px 0;
+    padding-top: 20px;
+    font-size: 30px;
   }
   .sub-git, .sub-github {
-    font-size: 35px;
+    font-size: 25px;
   }
   .versonamento-git-github {
     background: #abbaab;
@@ -94,5 +121,5 @@ body {}
     background: linear-gradient(to right, #ffffff, #abbaab);
     }
      /*commit*/
-    
+
 }
